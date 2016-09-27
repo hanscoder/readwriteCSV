@@ -25,16 +25,15 @@
 		<mavenResourcesPluginVersion>2.7</mavenResourcesPluginVersion>
 		<mavenSitePluginVersion>3.4</mavenSitePluginVersion>
 		<mavenSurefirePluginVersion>2.18.1</mavenSurefirePluginVersion>
-		<cucumberVersion>1.2.0</cucumberVersion>
+		<cucumberVersion>1.2.5</cucumberVersion>
 		<junitVersion>4.12</junitVersion>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-picocontainer</artifactId>
+			<artifactId>cucumber-java8</artifactId>
 			<version>${cucumberVersion}</version>
-			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>info.cukes</groupId>
